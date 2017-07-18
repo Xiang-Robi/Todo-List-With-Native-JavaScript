@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>todoList</title>
+</head>
+<body>
+	<div class="background">
+		<div class="container" id="wrapper">
+			<!-- inputArea = header + input box -->
+			<div class="container d-flex flex-column justify-content-around align-items-center" id="inputAreaCtn">
+				<p class="header" id="header">Todo List</p>
+				<input class='inputBox'  type="text" name="" id="inputBox" class="inputBox" placeholder="Add a task..." >
+			</div>
+			
+			<!-- display area -->
+			<div class="container" id="displayAreaCtn">
+				<ul></ul>
+			</div>
+			
+			<!-- control area -->
+			<div class="container d-flex flex-row justify-content-around align-items-center" id="controlAreaCtn">
+				<button class="btn primary-btn btn-lg" id="delBtnSelected">Delete</button>
+				<button class="btn primary-btn btn-lg" id="clearBtn">Clear</button>
+				<button class="btn primary-btn btn-lg" id="sortBtn">Sort</button>
+				<button class="btn primary-btn btn-lg" id="moreBtn">More</button>
+			</div>
+
+		</div>
+	</div>
+
+
+	<script src="bundle.js"></script>
+</body>
+</html>
