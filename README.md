@@ -1,6 +1,6 @@
 # Todo-List-With-Native-JavaScript
 
-##Technologies
+## Technologies
 * Native JavaScript
 * bootstrap 4 for styling
 * Webpack for packing
